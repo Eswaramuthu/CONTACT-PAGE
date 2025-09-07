@@ -1,1 +1,252 @@
+/* Hero Section & Contact Info Styles */
+.hero-section {
+  background: linear-gradient(to bottom right, #dbeafe, #e0e7ff);
+  padding: 4rem 0;
+}
 
+.hero-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .hero-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    padding: 0 2rem;
+  }
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+.hero-title .highlight {
+  color: #2563eb;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+.contact-info-section {
+  padding: 5rem 0;
+  background-color: #f9fafb;
+}
+
+.contact-info-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .contact-info-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-info-container {
+    padding: 0 2rem;
+  }
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .contact-info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contact-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-info-header h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.contact-info-header p {
+  font-size: 1.125rem;
+  color: #4b5563;
+  line-height: 1.75;
+}
+
+.contact-cards {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6;
+  transition: box-shadow 0.3s;
+}
+
+.contact-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-card-icon.phone {
+  background-color: #dbeafe;
+}
+
+.contact-card-icon.location {
+  background-color: #dcfce7;
+}
+
+.contact-card-icon.email {
+  background-color: #f3e8ff;
+}
+
+.contact-card-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.contact-card-icon.phone svg {
+  color: #2563eb;
+}
+
+.contact-card-icon.location svg {
+  color: #16a34a;
+}
+
+.contact-card-icon.email svg {
+  color: #9333ea;
+}
+
+.contact-card-content h4 {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.contact-card-content .primary-info {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.contact-card-content .secondary-info {
+  color: #4b5563;
+}
+
+.contact-card-content .meta-info {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.social-section {
+  margin-top: 2rem;
+}
+
+.social-section h4 {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}
+
+.social-link.twitter {
+  background-color: #2563eb;
+}
+
+.social-link.twitter:hover {
+  background-color: #1d4ed8;
+}
+
+.social-link.linkedin {
+  background-color: #1e40af;
+}
+
+.social-link.linkedin:hover {
+  background-color: #1e3a8a;
+}
+
+.social-link.facebook {
+  background-color: #3b82f6;
+}
+
+.social-link.facebook:hover {
+  background-color: #2563eb;
+}
+
+.social-link.instagram {
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+}
+
+.social-link.instagram:hover {
+  background: linear-gradient(to right, #7c3aed, #db2777);
+}
+
+.social-link svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}

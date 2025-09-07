@@ -1,1 +1,5 @@
-
+/* Contact Us Main Component Styles */
+.contact-page {
+  min-height: 100vh;
+  background-color: white;
+}
