@@ -1,9 +1,13 @@
-import React from 'react';
-import ContactUs from './contactus';
-import './contact.css';
+import React from "react";
+import "./contact.css";
+import ContactUs from "./contactus";
+import ContactForm from "./form";
 
-const Contact = () => {
-  return <ContactUs />;
-};
-
-export default Contact;
+export default function Contact() {
+  return (
+    <section className="contact-section">
+      <ContactUs />
+      <ContactForm />
+    </section>
+  );
+}

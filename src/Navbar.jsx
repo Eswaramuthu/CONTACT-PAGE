@@ -1,33 +1,16 @@
-import React from 'react';
-import './navbar.css';
+import React from "react";
+import "./navbar.css";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-content">
-          <div className="navbar-brand">
-            <div className="navbar-logo">
-              <span>A</span>
-            </div>
-            <div className="navbar-title">ABZENO</div>
-          </div>
-          
-          <div className="navbar-nav">
-            <a href="#about">About Us</a>
-            <a href="#products">Products & Services</a>
-            <a href="#contact" className="active">Contact</a>
-          </div>
-          
-          <div className="navbar-actions">
-            <button className="btn-primary">
-              Get Quote
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <header className="header">
+      <div className="logo">ABZENO</div>
+      <nav className="nav">
+        <a href="#">ABOUT US</a>
+        <a href="#">PRODUCT & SERVICES</a>
+        <a href="#">CAREER</a>
+      </nav>
+      <button className="reach-us-btn">REACH US</button>
+    </header>
   );
-};
-
-export default Navbar;
+}

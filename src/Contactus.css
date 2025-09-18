@@ -1,5 +1,35 @@
-/* Contact Us Main Component Styles */
-.contact-page {
-  min-height: 100vh;
-  background-color: white;
+.contact-info-card {
+  background: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 24px 28px;
+  width: 270px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.contact-info-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.info-block {
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+
+.info-block b {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.info-block a {
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.social-icons a {
+  margin-right: 10px;
 }
